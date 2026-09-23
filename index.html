@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>For You</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- =========================
+         PASSWORD SCREEN
+         ========================= -->
+
+    <section id="password-screen" class="screen">
+
+        <p class="eyebrow">Since I am not there in person, here is a little something for you. 
+        <h1>This is made for your brown eyes only soooo.... there is a password hehe </h1>
+
+        <p class="subtitle">
+            The password is the name of a special place, where everything started...
+        </p>
+
+        <input
+            type="password"
+            id="password-input"
+            placeholder="Sahi jagah ka naam daal"
+        >
+
+        <button id="password-button">
+            Enter →
+        </button>
+
+        <p id="password-error"></p>
+
+    </section>
+
+
+    <!-- =========================
+         BIRTHDAY SCREEN
+         ========================= -->
+
+    <section id="birthday-screen" class="screen hidden">
+
+        <p class="eyebrow">Happy birthday Bhargavvvv!!!1
+        <!-- ✨ YOU CAN EDIT THIS ✨ -->
+
+        <h1>And just like that, chapter 21 begins! </h1>
+
+        <p class="subtitle">
+            Now, make a wish. 
+        </p>
+
+
+        <!-- CANDLE -->
+
+        <div id="candle-area">
+            <img src="images/cake.png" class="birthday-cake" alt="Birthday cake">
+
+            <div id="flame">
+                🔥
+            </div>
+
+        </div>
+
+        <p id="swipe-instruction">
+            Swipe across the flame →
+        </p>
+
+
+        <!-- THIS APPEARS AFTER THE CANDLE GOES OUT -->
+
+        <div id="after-candle" class="hidden">
+
+            <p class="big-message">
+                Wish made. ✨
+            </p>
+
+            <button id="continue-button">
+                Let's go →
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         MAIN WEBSITE
+         ========================= -->
+
+    <main id="main-content" class="hidden">
+
+
+        <!-- INTRO -->
+
+        <section class="content-section intro">
+
+            <p class="eyebrow">ENTRY 02</p>
+
+            <!-- ✨ YOU CAN EDIT THIS ✨ -->
+
+            <h2>A little corner of the internet, just for you.</h2>
+
+            <p>
+                I couldn't send you something in person,
+                so I made you this instead.
+            </p>
+
+        </section>
+
+
+        <!-- MEMORIES -->
+
+        <section class="content-section">
+
+            <p class="eyebrow">THE ARCHIVE</p>
+
+            <h2>Some of my favourite pieces of us.</h2>
+
+            <div class="memory-grid">
+
+                <!-- ✨ YOU CAN ADD YOUR PHOTOS HERE LATER ✨ -->
+
+                <div class="memory-card">
+                    <div class="photo-placeholder">📷</div>
+                    <p>Put a memory here.</p>
+                </div>
+
+                <div class="memory-card">
+                    <div class="photo-placeholder">📷</div>
+                    <p>Put another one here.</p>
+                </div>
+
+                <div class="memory-card">
+                    <div class="photo-placeholder">📷</div>
+                    <p>And another.</p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ADVENTURES -->
+
+        <section class="content-section adventure">
+
+            <p class="eyebrow">NEXT ADVENTURES</p>
+
+            <h2>Things we still have to do.</h2>
+
+            <div class="adventure-list">
+
+                <!-- ✨ YOU CAN EDIT THESE ✨ -->
+
+                <div>☐ Go somewhere neither of us has been</div>
+
+                <div>☐ Take an unnecessarily long trip</div>
+
+                <div>☐ Take way too many photos</div>
+
+                <div>☐ Make a memory we'll laugh about later</div>
+
+            </div>
+
+        </section>
+
+
+        <!-- FINAL MESSAGE -->
+
+        <section class="content-section final-message">
+
+            <p class="eyebrow">FINAL STOP</p>
+
+            <!-- ✨ YOU CAN EDIT THIS ✨ -->
+
+            <h2>Happy birthday, idiot. ❤️</h2>
+
+            <p>
+                I hope this year brings you a lot of good things,
+                new places, ridiculous adventures,
+                and plenty of reasons to smile.
+            </p>
+
+            <p>
+                I'm really glad you're here.
+            </p>
+
+            <p class="signature">
+                ❤️
+            </p>
+
+        </section>
+
+
+    </main>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
